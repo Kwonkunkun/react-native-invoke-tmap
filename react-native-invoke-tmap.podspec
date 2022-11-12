@@ -15,8 +15,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Kwonkunkun/react-native-invoke-tmap.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
-
   s.dependency "React-Core"
+  
+  # vender framwork로 직접추가
+  s.vendored_frameworks = 'ios/TMapSDK.framework'
 
   # Don't install the dependencies when we run `pod install` in the old architecture.
   if ENV['RCT_NEW_ARCH_ENABLED'] == '1' then

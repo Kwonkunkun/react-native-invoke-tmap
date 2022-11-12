@@ -2,6 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>TMAP_API_KEY</key>
+	<string>Api key를 입력해주세요</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>tmap</string>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
@@ -36,7 +42,7 @@
 		</dict>
 	</dict>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string></string>
+	<string>위치사용에 동의해주세요!</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>

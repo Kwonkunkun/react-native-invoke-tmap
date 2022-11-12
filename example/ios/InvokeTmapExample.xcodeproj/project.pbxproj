@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* InvokeTmapExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* InvokeTmapExampleTests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-InvokeTmapExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-InvokeTmapExample.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		7699B88040F8A987B510C191 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C04E941BE729E463E2F0FC10 /* libPods-InvokeTmapExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 599CBC024F69FD3471509F98 /* libPods-InvokeTmapExample.a */; };
+		D6602AE1291E402E00128839 /* InvokeTMapExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6602AE0291E402E00128839 /* InvokeTMapExample.swift */; };
+		FB8937F4B331A5C8922371B3 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F034548C9C3AB9390CB0EB /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +27,19 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		D6602AE7291E50E600128839 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		00E356EE1AD99517003FC87E /* InvokeTmapExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvokeTmapExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -36,14 +50,15 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = InvokeTmapExample/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = InvokeTmapExample/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = InvokeTmapExample/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InvokeTmapExample-InvokeTmapExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B4392A12AC88292D35C810B /* Pods-InvokeTmapExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample.debug.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-InvokeTmapExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample.release.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-InvokeTmapExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InvokeTmapExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		599CBC024F69FD3471509F98 /* libPods-InvokeTmapExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InvokeTmapExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66F3939B798B164601DC472F /* Pods-InvokeTmapExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample.debug.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample.debug.xcconfig"; sourceTree = "<group>"; };
+		774DB9FD0E4BF7B3FEE52BFE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = InvokeTmapExample/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		87A636BB36A226C6AF98D802 /* Pods-InvokeTmapExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample.release.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample.release.xcconfig"; sourceTree = "<group>"; };
+		D0F034548C9C3AB9390CB0EB /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InvokeTmapExample-InvokeTmapExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D499DBFE2023A519F91CE98E /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig"; path = "Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		D6602AE0291E402E00128839 /* InvokeTMapExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvokeTMapExample.swift; sourceTree = "<group>"; };
+		D6602AE2291E412700128839 /* InvokeTMapExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InvokeTMapExample-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a in Frameworks */,
+				FB8937F4B331A5C8922371B3 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C80B921A6F3F58F76C31292 /* libPods-InvokeTmapExample.a in Frameworks */,
+				C04E941BE729E463E2F0FC10 /* libPods-InvokeTmapExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,18 +107,10 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
+				D6602AE0291E402E00128839 /* InvokeTMapExample.swift */,
+				D6602AE2291E412700128839 /* InvokeTMapExample-Bridging-Header.h */,
 			);
 			name = InvokeTmapExample;
-			sourceTree = "<group>";
-		};
-		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-InvokeTmapExample.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -120,8 +127,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* InvokeTmapExampleTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				E3F588F0037F241752EA09E0 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -140,12 +147,21 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-InvokeTmapExample.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-InvokeTmapExample.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */,
+				66F3939B798B164601DC472F /* Pods-InvokeTmapExample.debug.xcconfig */,
+				87A636BB36A226C6AF98D802 /* Pods-InvokeTmapExample.release.xcconfig */,
+				774DB9FD0E4BF7B3FEE52BFE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */,
+				D499DBFE2023A519F91CE98E /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E3F588F0037F241752EA09E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				599CBC024F69FD3471509F98 /* libPods-InvokeTmapExample.a */,
+				D0F034548C9C3AB9390CB0EB /* libPods-InvokeTmapExample-InvokeTmapExampleTests.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,12 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "InvokeTmapExampleTests" */;
 			buildPhases = (
-				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				7E514445896B3F425F05E81F /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
-				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+				B184EE7BC59FBEA37E086C8C /* [CP] Embed Pods Frameworks */,
+				13E6D58E7B1F8FB759DA31A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -176,14 +192,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "InvokeTmapExample" */;
 			buildPhases = (
-				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				2748D15D9237A53B4F0D197A /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
-				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				D6602AE7291E50E600128839 /* Embed Frameworks */,
+				F28ED8CE7B0EDCDB78050AD0 /* [CP] Embed Pods Frameworks */,
+				F82B0A3982F66897C5A52298 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,7 +224,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -266,46 +283,24 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"../node_modules/react-native/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"../node_modules/react-native/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
 		};
-		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+		13E6D58E7B1F8FB759DA31A5 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-InvokeTmapExample-InvokeTmapExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+		2748D15D9237A53B4F0D197A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -327,7 +322,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+		7E514445896B3F425F05E81F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InvokeTmapExample-InvokeTmapExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B184EE7BC59FBEA37E086C8C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -344,7 +361,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+		F28ED8CE7B0EDCDB78050AD0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F82B0A3982F66897C5A52298 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -359,23 +393,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample/Pods-InvokeTmapExample-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InvokeTmapExample-InvokeTmapExampleTests/Pods-InvokeTmapExample-InvokeTmapExampleTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -412,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6602AE1291E402E00128839 /* InvokeTMapExample.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -430,8 +448,9 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 774DB9FD0E4BF7B3FEE52BFE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -457,8 +476,9 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */;
+			baseConfigurationReference = D499DBFE2023A519F91CE98E /* Pods-InvokeTmapExample-InvokeTmapExampleTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = InvokeTmapExampleTests/Info.plist;
@@ -481,17 +501,64 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-InvokeTmapExample.debug.xcconfig */;
+			baseConfigurationReference = 66F3939B798B164601DC472F /* Pods-InvokeTmapExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56SNH3AL92;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InvokeTmapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Boost-iOSX\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-PeerTalk\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Flipper-RSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FlipperKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-bridging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-invoke-tmap\"",
+					/usr/lib/swift,
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -500,6 +567,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = InvokeTmapExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "InvokeTmapExample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -508,16 +576,56 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-InvokeTmapExample.release.xcconfig */;
+			baseConfigurationReference = 87A636BB36A226C6AF98D802 /* Pods-InvokeTmapExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 56SNH3AL92;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = InvokeTmapExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(SDKROOT)/usr/lib/swift",
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/CocoaAsyncSocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/DoubleConversion\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCT-Folly\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RCTTypeSafety\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Codegen\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-Core\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-CoreModules\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTAnimation\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTBlob\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTLinking\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTNetwork\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTSettings\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTText\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-RCTVibration\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-bridging\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-cxxreact\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-hermes\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsi\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsiexecutor\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-jsinspector\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-logger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/React-perflogger\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SocketRocket\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Yoga\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YogaKit\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/fmt\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/libevent\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/react-native-invoke-tmap\"",
+					/usr/lib/swift,
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -526,6 +634,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = InvokeTmapExample;
+				SWIFT_OBJC_BRIDGING_HEADER = "InvokeTmapExample-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
