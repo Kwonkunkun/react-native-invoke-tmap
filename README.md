@@ -1,8 +1,11 @@
 # react-native-invoke-tmap
 
-only invoke tmap module & vendored tmap sdk
+- only invoke tmap module
+- tmap sdk
+  ios: v2.1.1
+  android: v1.7.5
 
-## Installation (not yet)
+## Installation
 
 ```sh
 yarn add react-native-invoke-tmap
@@ -13,32 +16,49 @@ npx pod-install
 
 ## Ios setting
 
+#### 1.key 추가
+
 ```
-//add TMAP_API_KEY in info plist
+//in info plist
 <dict>
     <key>TMAP_API_KEY</key>
     <string>Api key를 입력해주세요</string>
 </dict>
 ```
 
-## Android setting (not yet)
+#### 2.query 추가
 
 ```
-//add TMAP_API_KEY in local.properties
-TMAP_API_KEY = "키를 입력해주세여"
+//in info plist
+<key>LSApplicationQueriesSchemes</key>
+<array>
+    <string>tmap</string>
+</array>
+```
 
-//add in build.gradle(app)
-//Properties를 선언하고 local.properties에 새로 등록된 api_key값을 load
-Properties properties = new Properties()
-properties.load(project.rootProject.file('local.properties').newDataInputStream())
-android{
-	...
-    defaultConfig{
-    	...
-        //add
-        buildConfigField "String","TMAP_API_KEY",properties['TMAP_API_KEY']
-    }
-}
+## Android setting
+
+#### 1.key 추가
+
+```
+//in android/app/src/AndroidManifest.xml
+<application
+//...>
+//...
+ <meta-data
+      android:name="com.skt.tmap"
+      android:value="api key를 입력해주세여" />
+</application>
+```
+
+#### 2.query 추가
+
+```
+//in android/app/src/AndroidManifest.xml
+<queries>
+    <package android:name="com.skt.skaf.l001mtm091" />
+    <package android:name="com.skt.tmap.ku" />
+</queries>
 ```
 
 ## Usage
