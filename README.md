@@ -1,4 +1,18 @@
-# react-native-invoke-tmap
+<h1 align="center">Welcome to react-native-invoke-tmap 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/react-native-invoke-tmap" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/react-native-invoke-tmap.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
+
+### 🏠 [Homepage](https://github.com/Kwonkunkun/react-native-invoke-tmap)
+
+### 😃 [NPM](https://www.npmjs.com/package/react-native-invoke-tmap)
+
+<Image style="width:300px" src="./images/test.gif">
 
 - only invoke tmap module
 - tmap sdk
